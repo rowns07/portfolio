@@ -5,6 +5,7 @@ html,body {
 	width: 100%;
 	height: 100%;
 	max-width: 100%;
+	min-height: 100%;
 }
 
 .navigation li {
@@ -14,9 +15,12 @@ html,body {
 .slide {
 	background-attachment: fixed;
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
+	height: auto;
 	position: relative;
 	box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3);
+	position: relative;
+	margin-top: 40px;
 }
 
 .wrapper {
@@ -191,20 +195,36 @@ html,body {
 	text-decoration: blink;
 }
 
-#rede-sociais a {
-	font-size: 3em;
-	color: green;
-	font-size: 2em;
-}
-
-#rede-sociais a:HOVER {
-	font-size: 2.5em;
-}
-
-.nome {
-	list-style: none;
-	text-decoration: none;
+.nome a {
 	font-size: 2em;
 	color: white;
+}
+
+.nome a:hover {
+	list-style: none;
+	text-decoration: none;
+}
+
+.teste {
+	margin-top: 10px;
+}
+
+.teste li {
+	list-style: none;
+	font-size: 1.2em;
+}
+
+@media screen and (max-width:768px) {
+	#rede-sociais {
+		position: absolute;
+		top: 0;
+		padding-top:50px;
 	
+	}
+	#rede-sociais li {
+		display: inline;
+	
+	
+	
+	}
 }
