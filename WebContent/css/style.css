@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	font-family: 'BebasRegular';
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+}
+
+.navigation li {
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.slide {
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.slideno {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	font-size: 100px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.button {
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	left: 45%;
+	background-color: #333333;
+	background-image: url(../images/arrow.png);
+}
+
+.button:hover {
+	background-color: #494949;
+	cursor: pointer;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1 {
+	background-color: orange;
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2 {
+	background-color: pink;
+}
+
+#slide2 img:first-child {
+	position: absolute;
+	top: 70%;
+	left: -15%;
+}
+
+#slide2 img:nth-child(2) {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+
+#slide2 img:nth-child(3) {
+	position: absolute;
+	top: 60%;
+	left: 30%;
+}
+
+#slide2 img:nth-child(4) {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+}
+
+#slide2 img:nth-child(5) {
+	position: absolute;
+	top: 60%;
+	right: 30%;
+}
+
+#slide2 img:nth-child(6) {
+	position: absolute;
+	top: 60%;
+	right: 30%;
+}
+
+#slide2 img:nth-child(7) {
+	position: absolute;
+	top: 40%;
+	right: 10%;
+}
+
+#slide2 img:nth-child(8) {
+	position: absolute;
+	top: 10%;
+	right: 30%;
+}
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3 {
+	background-color: #b6c10b;
+	width: 100%;
+	max-width: 100%;
+}
+
+#slide3 img:first-child {
+	position: absolute;
+	top: 70%;
+	left: 30%;
+}
+
+#slide3 img:nth-child(2) {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+#slide3 img:nth-child(3) {
+	position: absolute;
+	top: 15%;
+	left: 30%;
+}
+
+#slide3 img:nth-child(4) {
+	position: absolute;
+	top: 45%;
+	left: 30%;
+}
+
+#slide3 img:nth-child(5) {
+	position: absolute;
+	top: 20%;
+	right: 30%;
+}
+
+#slide3 img:nth-child(6) {
+	position: absolute;
+	top: 10%;
+	right: 30%;
+}
+/******************************
+ SLIDE 4 
+*******************************/
+#slide4 {
+	background-image: url(../images/Slide4/desktop4.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#slide4 .parallaxbg {
+	position: absolute;
+	right: 4%;
+	top: 40px;
+	font-size: 28px;
+	color: rgba(51, 51, 51, 0.3);
+}
+
+.conteudo {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#rede-sociais {
+	position: fixed;
+	z-index: 2;
+	right: 0;
+	top: 40%;
+}
+
+#rede-sociais li {
+	list-style: none;
+	text-decoration: blink;
+}
+
+#rede-sociais a {
+	font-size: 3em;
+	color: green;
+	font-size: 2em;
+}
+
+#rede-sociais a:HOVER {
+	font-size: 2.5em;
+}
+
+.nome {
+	list-style: none;
+	text-decoration: none;
+	font-size: 2em;
+	color: white;
+	
+}
