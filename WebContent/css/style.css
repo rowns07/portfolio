@@ -59,62 +59,16 @@ html,body {
  SLIDE 1 
 *******************************/
 #slide1 {
-	background-color: orange;
+	background-color: black;
+	background-image: url(../images/Design5.jpg);
 }
 /******************************
  SLIDE 2 
 *******************************/
 #slide2 {
-	background-color: pink;
+	background-color: white;
 }
 
-#slide2 img:first-child {
-	position: absolute;
-	top: 70%;
-	left: -15%;
-}
-
-#slide2 img:nth-child(2) {
-	position: absolute;
-	top: 30%;
-	left: 10%;
-}
-
-#slide2 img:nth-child(3) {
-	position: absolute;
-	top: 60%;
-	left: 30%;
-}
-
-#slide2 img:nth-child(4) {
-	position: absolute;
-	top: 40%;
-	left: 30%;
-}
-
-#slide2 img:nth-child(5) {
-	position: absolute;
-	top: 60%;
-	right: 30%;
-}
-
-#slide2 img:nth-child(6) {
-	position: absolute;
-	top: 60%;
-	right: 30%;
-}
-
-#slide2 img:nth-child(7) {
-	position: absolute;
-	top: 40%;
-	right: 10%;
-}
-
-#slide2 img:nth-child(8) {
-	position: absolute;
-	top: 10%;
-	right: 30%;
-}
 /******************************
  SLIDE 3 
 *******************************/
@@ -124,41 +78,6 @@ html,body {
 	max-width: 100%;
 }
 
-#slide3 img:first-child {
-	position: absolute;
-	top: 70%;
-	left: 30%;
-}
-
-#slide3 img:nth-child(2) {
-	position: absolute;
-	top: 10%;
-	left: 10%;
-}
-
-#slide3 img:nth-child(3) {
-	position: absolute;
-	top: 15%;
-	left: 30%;
-}
-
-#slide3 img:nth-child(4) {
-	position: absolute;
-	top: 45%;
-	left: 30%;
-}
-
-#slide3 img:nth-child(5) {
-	position: absolute;
-	top: 20%;
-	right: 30%;
-}
-
-#slide3 img:nth-child(6) {
-	position: absolute;
-	top: 10%;
-	right: 30%;
-}
 /******************************
  SLIDE 4 
 *******************************/
@@ -214,17 +133,49 @@ html,body {
 	font-size: 1.2em;
 }
 
+.conteudo2 {
+	margin: 0 auto;
+	width: 90%;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+/* Carousel base class */
+.carousel {
+	height: 500px;
+	margin-bottom: 60px;
+	background-color: none;
+	padding-top: 150px;
+}
+
+.imagem {
+	position: fixed;
+	max-width: 100%;
+	left: 0;
+}
+
+.fonte {
+	font-size: 3em;
+	font-weight: bold;
+	font-family: cursive;
+}
+
 @media screen and (max-width:768px) {
 	#rede-sociais {
-		position: absolute;
-		top: 0;
-		padding-top:50px;
-	
+		position: relative;
+		right: auto;
+		z-index: 10;
+		padding: 0;
+		
 	}
 	#rede-sociais li {
 		display: inline;
-	
-	
-	
+
+	}
+	.footer {
+		position: relative;
+		bottom: 0;
+		z-index: 10;
+		text-align: center;
 	}
 }
